@@ -1,0 +1,44 @@
+[
+    {
+        "test_no": "001",
+        "query": "What's the price of Bitcoin?",
+        "expected_function": "get_crypto_price",
+        "category": "crypto_price"
+    },
+    {
+        "test_no": "002",
+        "query": "How much is Ethereum worth?",
+        "expected_function": "get_crypto_price",
+        "category": "crypto_price"
+    },
+    {
+        "test_no": "003",
+        "query": "Convert 100 USD to EUR",
+        "expected_function": "convert_currency",
+        "category": "fiat_conversion"
+    },
+    {
+        "test_no": "004",
+        "query": "What's the exchange rate from NGN to GBP?",
+        "expected_function": "get_exchange_rate",
+        "category": "exchange_rate"
+    },
+    {
+        "test_no": "005",
+        "query": "Convert 2 ETH to NGN",
+        "expected_function": "crypto_to_fiat",
+        "category": "crypto_to_fiat"
+    },
+    {
+        "test_no": "006",
+        "query": "How much ethereum can I get for 520 EUR?",
+        "expected_function": "fiat_to_crypto",
+        "category": "fiat_to_crypto"
+    },
+    {
+        "test_no": "007",
+        "query": "What's trending in crypto?",
+        "expected_function": "get_trending_cryptos",
+        "category": "market_data"
+    }
+]
